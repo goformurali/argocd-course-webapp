@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: mabusaa/argocd-course-webapp
+  repository: goformurali/argocd-course-webapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: a97182fc074b551f9ed8d23732f1a8d0a0154ffd
+  tag: f8eeae89d04967a40c0c7c2d0d2259703c99a89c
 
 imagePullSecrets: []
 nameOverride: ""
